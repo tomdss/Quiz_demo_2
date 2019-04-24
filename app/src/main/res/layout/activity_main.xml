@@ -28,8 +28,11 @@
                 android:textSize="18sp"
                 />
             <EditText
+                android:id="@+id/edt_first"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="Nhap tra loi"
+                />
 
         </LinearLayout>
 
