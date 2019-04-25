@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int checkQuest() {
         int i = 0;
 
-        if(!edtFirst.getText().toString().isEmpty())i++;
+        if(edtFirst.getText().toString().equals("3"))i++;
         if(rgTwo.getCheckedRadioButtonId()!=-1)i++;
         if(rgThree.getCheckedRadioButtonId()!=-1)i++;
         if(rgFour.getCheckedRadioButtonId()!=-1)i++;

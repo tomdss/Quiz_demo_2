@@ -23,7 +23,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1.Question 1 ?"
+                android:text="1.Question 1 : 1 + 2 = ?"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 />
@@ -31,7 +31,7 @@
                 android:id="@+id/edt_first"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nhap tra loi"
+                android:hint="Nhap tra loi "
                 />
 
         </LinearLayout>
